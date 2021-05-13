@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>SOLPAD</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Contact-->
+    <section class="page-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <ul class="progressbar w-100">
+                    <li class="complete">Initiate Transfer</li>
+                    <li class="active">Initiate Transfer</li>
+                    <li class="active">Initiate Transfer</li>
+                    <li class="active">Initiate Transfer</li>
+                  </ul>
+            </div>
+            <div class="row justify-content-center">
+                <form class="col-sm-6 col-md-10 col-12" id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row align-items-stretch mg-b-40 ">
+                        <div class="col-md-6 col-12">
+                            <div class="form-group">
+                                <label class="label-input">From</label>
+                                <input class="form-control" id="name" type="text" value="Ethereum"
+                                    required="required" data-validation-required-message="Please enter your location." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="form-group">
+                                <label class="label-input">ERC20 address</label>
+                                <input class="form-control" id="name" type="text"
+                                    required="required" data-validation-required-message="Please enter your address." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-stretch mg-b-40 ">
+                        <div class="col-md-6 col-12">
+                            <div class="form-group">
+                                <label class="label-input">Amount</label>
+                                <input class="form-control" id="name" type="text"
+                                    required="required" data-validation-required-message="Please enter amount." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="form-group">
+                                <label class="label-input">Balancer</label>
+                                <input class="form-control" id="name" type="text"
+                                    required="required" data-validation-required-message="Please enter balancer." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-stretch mg-b-40 ">
+                        <div class="col-md-6 col-12">
+                            <div class="form-group">
+                                <label class="label-input">Recipient</label>
+                                <input class="form-control" id="name" type="text" value="Solana"
+                                    required="required" data-validation-required-message="Please enter your recipient." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="form-group">
+                                <div>
+                                    <label class="label-input">Token account
+                                        <span class="float-right cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0004 0.399902C8.10169 0.399902 6.24563 0.962933 4.66692 2.01779C3.08821 3.07266 1.85775 4.57197 1.13115 6.32614C0.40455 8.08031 0.214438 10.0106 0.584856 11.8728C0.955274 13.735 1.86959 15.4455 3.21217 16.7881C4.55475 18.1307 6.26531 19.045 8.12753 19.4154C9.98975 19.7859 11.92 19.5957 13.6742 18.8691C15.4283 18.1425 16.9276 16.9121 17.9825 15.3334C19.0374 13.7547 19.6004 11.8986 19.6004 9.9999C19.5976 7.45467 18.5853 5.01447 16.7856 3.21472C14.9858 1.41496 12.5456 0.402655 10.0004 0.399902V0.399902ZM10.0004 17.9999C8.41815 17.9999 6.87143 17.5307 5.55583 16.6517C4.24024 15.7726 3.21486 14.5232 2.60936 13.0614C2.00386 11.5996 1.84543 9.99103 2.15411 8.43918C2.46279 6.88733 3.22472 5.46187 4.34354 4.34305C5.46236 3.22423 6.88783 2.4623 8.43967 2.15362C9.99152 1.84494 11.6001 2.00337 13.0619 2.60887C14.5237 3.21437 15.7731 4.23975 16.6522 5.55534C17.5312 6.87093 18.0004 8.41765 18.0004 9.9999C17.9981 12.1209 17.1545 14.1544 15.6547 15.6542C14.1549 17.154 12.1214 17.9976 10.0004 17.9999ZM14.0004 9.9999C14.0004 10.2121 13.9161 10.4156 13.7661 10.5656C13.6161 10.7156 13.4126 10.7999 13.2004 10.7999H10.8004V13.1999C10.8004 13.4121 10.7161 13.6156 10.5661 13.7656C10.4161 13.9156 10.2126 13.9999 10.0004 13.9999C9.78822 13.9999 9.58474 13.9156 9.43471 13.7656C9.28468 13.6156 9.2004 13.4121 9.2004 13.1999V10.7999H6.8004C6.58822 10.7999 6.38474 10.7156 6.23471 10.5656C6.08468 10.4156 6.00039 10.2121 6.00039 9.9999C6.00039 9.78773 6.08468 9.58425 6.23471 9.43422C6.38474 9.28419 6.58822 9.1999 6.8004 9.1999H9.2004V6.7999C9.2004 6.58773 9.28468 6.38425 9.43471 6.23422C9.58474 6.08419 9.78822 5.9999 10.0004 5.9999C10.2126 5.9999 10.4161 6.08419 10.5661 6.23422C10.7161 6.38425 10.8004 6.58773 10.8004 6.7999V9.1999H13.2004C13.4126 9.1999 13.6161 9.28419 13.7661 9.43422C13.9161 9.58425 14.0004 9.78773 14.0004 9.9999Z" fill="#250D43"/>
+                                        </svg></span> 
+                                    </label>
+                                </div>
+                                <input class="form-control" id="name" type="text"
+                                    required="required" data-validation-required-message="Please enter token account." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn text-uppercase btn-submit" id="sendMessageButton" type="submit">
+                            Transfer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
